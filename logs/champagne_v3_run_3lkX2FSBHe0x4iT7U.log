@@ -1,0 +1,79 @@
+2026-02-05T18:14:37.713Z ACTOR: Pulling container image of build ooWbqpdH8Udw8U0Yy from registry.
+2026-02-05T18:14:38.604Z ACTOR: Creating container.
+2026-02-05T18:14:38.683Z ACTOR: Starting container.
+2026-02-05T18:14:38.685Z ACTOR: Running under "LIMITED_PERMISSIONS" permission level.
+2026-02-05T18:14:40.006Z [apify._configuration] WARN  Actor is running on the Apify platform, `disable_browser_sandbox` was changed to True.
+2026-02-05T18:14:40.008Z [apify] INFO  Initializing Actor ({"apify_sdk_version": "3.1.0", "apify_client_version": "2.3.0", "crawlee_version": "1.1.1", "python_version": "3.11.14", "os": "linux"})
+2026-02-05T18:14:40.146Z [apify] INFO  Starting Wine-Searcher scraper (SuperScraper API)
+2026-02-05T18:14:40.148Z [apify] INFO    Start URL: https://www.wine-searcher.com/regions-champagne
+2026-02-05T18:14:40.150Z [apify] INFO    Scrape sub-regions: True
+2026-02-05T18:14:40.151Z [apify] INFO    Max depth: 10
+2026-02-05T18:14:40.153Z [apify] INFO    Tab filter: mostpopular
+2026-02-05T18:14:40.186Z [apify] INFO  Scraping region: Champagne (depth: 0)
+2026-02-05T18:15:16.520Z [apify] INFO    Hierarchy: France > Champagne
+2026-02-05T18:15:16.522Z [apify] INFO    Root region set to: Champagne
+2026-02-05T18:15:16.523Z [apify] INFO    Found 42 new wines
+2026-02-05T18:15:16.610Z [apify] INFO    Found 14 new sub-regions
+2026-02-05T18:15:18.611Z [apify] INFO  Scraping region: Champagne Demi-Sec (depth: 1)
+2026-02-05T18:15:41.148Z [apify] INFO    Hierarchy: France > Champagne > Champagne Demi-Sec
+2026-02-05T18:15:41.150Z [apify] INFO    Found 25 new wines
+2026-02-05T18:15:41.175Z [apify] INFO    Found 12 new sub-regions
+2026-02-05T18:15:43.183Z [apify] INFO  Scraping region: Champagne Blanc De Noirs (depth: 1)
+2026-02-05T18:16:09.779Z [apify] INFO    Hierarchy: France > Champagne > Champagne Blanc de Noirs
+2026-02-05T18:16:09.780Z [apify] INFO    Found 26 new wines
+2026-02-05T18:16:09.804Z [apify] INFO    Found 11 new sub-regions
+2026-02-05T18:16:11.806Z [apify] INFO  Scraping region: France (depth: 1)
+2026-02-05T18:16:29.157Z [apify] INFO    Hierarchy: France
+2026-02-05T18:16:29.159Z [apify] WARN    SKIPPED: Not a sub-region of Champagne
+2026-02-05T18:16:29.161Z [apify] INFO  Scraping region: Champagne Brut Nature - Zero (depth: 1)
+2026-02-05T18:16:59.327Z [apify] INFO    Hierarchy: France > Champagne > Champagne Brut Nature - Zero
+2026-02-05T18:16:59.329Z [apify] INFO    Found 25 new wines
+2026-02-05T18:16:59.362Z [apify] INFO    Found 10 new sub-regions
+2026-02-05T18:17:01.363Z [apify] INFO  Scraping region: Champagne Brut (depth: 1)
+2026-02-05T18:17:30.974Z [apify] INFO    Hierarchy: France > Champagne > Champagne Brut
+2026-02-05T18:17:30.975Z [apify] INFO    Found 8 new wines
+2026-02-05T18:17:31.001Z [apify] INFO    Found 9 new sub-regions
+2026-02-05T18:17:33.002Z [apify] INFO  Scraping region: Champagne Doux (depth: 1)
+2026-02-05T18:17:58.675Z [apify] INFO    Hierarchy: France > Champagne > Champagne Doux
+2026-02-05T18:17:58.677Z [apify] INFO    Found 6 new wines
+2026-02-05T18:17:58.695Z [apify] INFO    Found 8 new sub-regions
+2026-02-05T18:18:00.698Z [apify] INFO  Scraping region: Champagne Extra Brut (depth: 1)
+2026-02-05T18:18:38.581Z [apify] INFO    Hierarchy: France > Champagne > Champagne Extra Brut
+2026-02-05T18:18:38.583Z [apify] INFO    Found 24 new wines
+2026-02-05T18:18:38.618Z [apify] INFO    Found 7 new sub-regions
+2026-02-05T18:18:40.618Z [apify] INFO  Scraping region: Marc De Champagne (depth: 1)
+2026-02-05T18:19:24.883Z [apify] INFO    Hierarchy: France > Champagne > Marc de Champagne
+2026-02-05T18:19:24.885Z [apify] INFO    Found 24 new wines
+2026-02-05T18:19:24.923Z [apify] INFO    Found 6 new sub-regions
+2026-02-05T18:19:26.927Z [apify] INFO  Scraping region: Rose Des Riceys (depth: 1)
+2026-02-05T18:19:51.876Z [apify] INFO    Hierarchy: France > Champagne > Rose des Riceys
+2026-02-05T18:19:51.877Z [apify] INFO    Found 12 new wines
+2026-02-05T18:19:51.908Z [apify] INFO    Found 5 new sub-regions
+2026-02-05T18:19:53.908Z [apify] INFO  Scraping region: Champagne Sec (depth: 1)
+2026-02-05T18:20:23.931Z [apify] INFO    Hierarchy: France > Champagne > Champagne Sec
+2026-02-05T18:20:23.932Z [apify] INFO    Found 25 new wines
+2026-02-05T18:20:23.959Z [apify] INFO    Found 4 new sub-regions
+2026-02-05T18:20:25.960Z [apify] INFO  Scraping region: Champagne Extra Dry (depth: 1)
+2026-02-05T18:20:47.224Z [apify] INFO    Hierarchy: France > Champagne > Champagne Extra Dry
+2026-02-05T18:20:47.226Z [apify] INFO    Found 22 new wines
+2026-02-05T18:20:47.255Z [apify] INFO    Found 3 new sub-regions
+2026-02-05T18:20:49.256Z [apify] INFO  Scraping region: Champagne Rose (depth: 1)
+2026-02-05T18:21:13.063Z [apify] INFO    Hierarchy: France > Champagne > Champagne Rose
+2026-02-05T18:21:13.065Z [apify] INFO    Found 26 new wines
+2026-02-05T18:21:13.075Z [apify] INFO    Found 2 new sub-regions
+2026-02-05T18:21:15.077Z [apify] INFO  Scraping region: Champagne Blanc De Blancs (depth: 1)
+2026-02-05T18:21:46.870Z [apify] INFO    Hierarchy: France > Champagne > Champagne Blanc de Blancs
+2026-02-05T18:21:46.872Z [apify] INFO    Found 23 new wines
+2026-02-05T18:21:46.897Z [apify] INFO    Found 1 new sub-regions
+2026-02-05T18:21:48.899Z [apify] INFO  Scraping region: Coteaux Champenois (depth: 1)
+2026-02-05T18:22:23.933Z [apify] INFO    Hierarchy: France > Champagne > Coteaux Champenois
+2026-02-05T18:22:23.935Z [apify] INFO    Found 25 new wines
+2026-02-05T18:22:23.971Z [apify] INFO    Found 0 new sub-regions
+2026-02-05T18:22:25.973Z [apify] INFO  ==================================================
+2026-02-05T18:22:25.974Z [apify] INFO  SCRAPING COMPLETE
+2026-02-05T18:22:25.976Z [apify] INFO  ==================================================
+2026-02-05T18:22:25.978Z [apify] INFO    Root region: Champagne
+2026-02-05T18:22:25.979Z [apify] INFO    Regions scraped: 14
+2026-02-05T18:22:25.981Z [apify] INFO    Regions skipped (out of hierarchy): 1
+2026-02-05T18:22:25.983Z [apify] INFO    Total unique wines: 313
+2026-02-05T18:22:26.036Z [apify] INFO  Exiting Actor ({"exit_code": 0})

@@ -1,0 +1,31 @@
+=== CHAMPAGNE SCRAPING v3 (build 0.1.16) ===
+
+Run ID: 3lkX2FSBHe0x4iT7U
+Date: 2026-02-05
+Build: 0.1.16 (filtrage hiérarchique par breadcrumbs)
+Status: SUCCEEDED (pas de timeout!)
+Durée: 7 min 48 s
+Coût: $0.158
+
+Total vins extraits: 313
+Régions Champagne: 14
+Régions hors-sujet: 0
+
+=== RÉGIONS SCRAPÉES ===
+France > Champagne
+France > Champagne > Champagne Blanc de Blancs
+France > Champagne > Champagne Blanc de Noirs
+France > Champagne > Champagne Brut
+France > Champagne > Champagne Brut Nature - Zero
+France > Champagne > Champagne Demi-Sec
+France > Champagne > Champagne Doux
+France > Champagne > Champagne Extra Brut
+France > Champagne > Champagne Extra Dry
+France > Champagne > Champagne Rose
+France > Champagne > Champagne Sec
+France > Champagne > Coteaux Champenois
+France > Champagne > Marc de Champagne
+France > Champagne > Rose des Riceys
+
+=== RÉGIONS IGNORÉES (filtrage) ===
+1 régions hors-hiérarchie ignorées

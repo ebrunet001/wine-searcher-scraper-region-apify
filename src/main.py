@@ -56,6 +56,10 @@ class WineSearcherScraper:
         self.seen_wine_urls: set[str] = set()
         self.wines_scraped = 0
         self.regions_scraped = 0
+        self.skipped_regions = 0
+
+        # Root region for hierarchy filtering (set on first page)
+        self.root_region: str = ""
 
         # Get Apify token
         self.apify_token = os.environ.get('APIFY_TOKEN')
@@ -194,6 +198,25 @@ class WineSearcherScraper:
                     breadcrumbs.append(text)
 
         return breadcrumbs
+
+    def _is_valid_subregion(self, breadcrumbs: list[str]) -> bool:
+        """Check if the page belongs to the root region's hierarchy.
+
+        A page is valid if the root region appears in its breadcrumbs.
+        For example, if root_region is 'Champagne', then:
+        - ['France', 'Champagne', 'Champagne Brut'] -> True
+        - ['France', 'Burgundy', 'Chablis'] -> False
+        """
+        if not self.root_region:
+            return True  # No filtering if root not set yet
+
+        # Check if root region appears in breadcrumbs (case-insensitive)
+        root_lower = self.root_region.lower()
+        for crumb in breadcrumbs:
+            if root_lower in crumb.lower():
+                return True
+
+        return False
 
     def _extract_sub_regions(self, html: str, current_url: str) -> list[str]:
         """Extract sub-region URLs from the page using the sub-menu section only.
@@ -336,6 +359,18 @@ class WineSearcherScraper:
                 if breadcrumbs:
                     Actor.log.info(f"  Hierarchy: {' > '.join(breadcrumbs)}")
 
+                # Set root region from first page's breadcrumbs
+                if depth == 0 and breadcrumbs:
+                    # Root region is the last item in breadcrumbs (current page)
+                    self.root_region = breadcrumbs[-1] if breadcrumbs else ""
+                    Actor.log.info(f"  Root region set to: {self.root_region}")
+
+                # Check if this page belongs to the root region's hierarchy
+                if depth > 0 and not self._is_valid_subregion(breadcrumbs):
+                    Actor.log.warning(f"  SKIPPED: Not a sub-region of {self.root_region}")
+                    self.skipped_regions += 1
+                    continue
+
                 Actor.log.info(f"  Found {len(wines)} new wines")
 
                 if wines:
@@ -358,7 +393,9 @@ class WineSearcherScraper:
         Actor.log.info("=" * 50)
         Actor.log.info("SCRAPING COMPLETE")
         Actor.log.info("=" * 50)
+        Actor.log.info(f"  Root region: {self.root_region}")
         Actor.log.info(f"  Regions scraped: {self.regions_scraped}")
+        Actor.log.info(f"  Regions skipped (out of hierarchy): {self.skipped_regions}")
         Actor.log.info(f"  Total unique wines: {self.wines_scraped}")
 
         return self.wines_scraped
