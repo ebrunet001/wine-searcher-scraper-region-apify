@@ -19,5 +19,6 @@ storage/
 .DS_Store
 Thumbs.db
 
-# Logs
+# Logs (but keep logs/ directory)
 *.log
+!logs/*.log

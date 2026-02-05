@@ -1,0 +1,276 @@
+2026-02-05T14:49:08.061Z ACTOR: Pulling container image of build NhW4lr2ghlgay7S5Y from registry.
+2026-02-05T14:49:08.838Z ACTOR: Creating container.
+2026-02-05T14:49:08.918Z ACTOR: Starting container.
+2026-02-05T14:49:08.919Z ACTOR: Running under "LIMITED_PERMISSIONS" permission level.
+2026-02-05T14:49:10.150Z [apify._configuration] WARN  Actor is running on the Apify platform, `disable_browser_sandbox` was changed to True.
+2026-02-05T14:49:10.156Z [apify] INFO  Initializing Actor ({"apify_sdk_version": "3.1.0", "apify_client_version": "2.3.0", "crawlee_version": "1.1.1", "python_version": "3.11.14", "os": "linux"})
+2026-02-05T14:49:10.287Z [apify] INFO  Starting Wine-Searcher scraper (SuperScraper API)
+2026-02-05T14:49:10.289Z [apify] INFO    Start URL: https://www.wine-searcher.com/regions-champagne
+2026-02-05T14:49:10.290Z [apify] INFO    Scrape sub-regions: True
+2026-02-05T14:49:10.291Z [apify] INFO    Max depth: 10
+2026-02-05T14:49:10.292Z [apify] INFO    Tab filter: mostpopular
+2026-02-05T14:49:10.330Z [apify] INFO  Scraping region: Champagne (depth: 0)
+2026-02-05T14:49:40.598Z [apify] INFO    Found 42 new wines
+2026-02-05T14:49:40.730Z [apify] INFO    Found 13 new sub-regions
+2026-02-05T14:49:42.731Z [apify] INFO  Scraping region: Champagne Brut (depth: 1)
+2026-02-05T14:50:07.150Z [apify] INFO    Found 8 new wines
+2026-02-05T14:50:07.181Z [apify] INFO    Found 12 new sub-regions
+2026-02-05T14:50:09.183Z [apify] INFO  Scraping region: Coteaux Champenois (depth: 1)
+2026-02-05T14:51:19.832Z [apify] INFO    Found 25 new wines
+2026-02-05T14:51:19.911Z [apify] INFO    Found 11 new sub-regions
+2026-02-05T14:51:21.914Z [apify] INFO  Scraping region: Champagne Extra Dry (depth: 1)
+2026-02-05T14:51:50.971Z [apify] INFO    Found 22 new wines
+2026-02-05T14:51:51.000Z [apify] INFO    Found 10 new sub-regions
+2026-02-05T14:51:53.001Z [apify] INFO  Scraping region: Champagne Demi-Sec (depth: 1)
+2026-02-05T14:52:12.645Z [apify] INFO    Found 25 new wines
+2026-02-05T14:52:12.688Z [apify] INFO    Found 9 new sub-regions
+2026-02-05T14:52:14.690Z [apify] INFO  Scraping region: Champagne Doux (depth: 1)
+2026-02-05T14:53:26.717Z [apify] WARN  SuperScraper returned status 500
+2026-02-05T14:53:26.718Z [apify] WARN  Attempt 1 failed, retrying...
+2026-02-05T14:54:02.707Z [apify] INFO    Found 6 new wines
+2026-02-05T14:54:02.736Z [apify] INFO    Found 8 new sub-regions
+2026-02-05T14:54:04.738Z [apify] INFO  Scraping region: Marc De Champagne (depth: 1)
+2026-02-05T14:54:39.897Z [apify] INFO    Found 24 new wines
+2026-02-05T14:54:39.982Z [apify] INFO    Found 8 new sub-regions
+2026-02-05T14:54:41.983Z [apify] INFO  Scraping region: Champagne Blanc De Blancs (depth: 1)
+2026-02-05T14:55:07.004Z [apify] INFO    Found 23 new wines
+2026-02-05T14:55:07.127Z [apify] INFO    Found 6 new sub-regions
+2026-02-05T14:55:09.129Z [apify] INFO  Scraping region: Rose Des Riceys (depth: 1)
+2026-02-05T14:55:38.197Z [apify] INFO    Found 12 new wines
+2026-02-05T14:55:38.224Z [apify] INFO    Found 6 new sub-regions
+2026-02-05T14:55:40.226Z [apify] INFO  Scraping region: Champagne Extra Brut (depth: 1)
+2026-02-05T14:55:56.485Z [apify] INFO    Found 24 new wines
+2026-02-05T14:55:56.517Z [apify] INFO    Found 4 new sub-regions
+2026-02-05T14:55:58.518Z [apify] INFO  Scraping region: Champagne Rose (depth: 1)
+2026-02-05T14:56:26.977Z [apify] INFO    Found 26 new wines
+2026-02-05T14:56:27.024Z [apify] INFO    Found 4 new sub-regions
+2026-02-05T14:56:29.025Z [apify] INFO  Scraping region: Champagne Blanc De Noirs (depth: 1)
+2026-02-05T14:57:06.243Z [apify] INFO    Found 26 new wines
+2026-02-05T14:57:06.353Z [apify] INFO    Found 2 new sub-regions
+2026-02-05T14:57:08.355Z [apify] INFO  Scraping region: Champagne Brut Nature - Zero (depth: 1)
+2026-02-05T14:57:30.904Z [apify] INFO    Found 25 new wines
+2026-02-05T14:57:30.932Z [apify] INFO    Found 1 new sub-regions
+2026-02-05T14:57:32.937Z [apify] INFO  Scraping region: Champagne Sec (depth: 1)
+2026-02-05T14:58:37.959Z [apify] INFO    Found 25 new wines
+2026-02-05T14:58:38.020Z [apify] INFO    Found 0 new sub-regions
+2026-02-05T14:58:40.023Z [apify] INFO  Scraping region: Cognac Fine Champagne (depth: 2)
+2026-02-05T14:59:12.647Z [apify] INFO    Found 25 new wines
+2026-02-05T14:59:12.675Z [apify] INFO    Found 11 new sub-regions
+2026-02-05T14:59:14.674Z [apify] INFO  Scraping region: Beaujolais Nouveau (depth: 2)
+2026-02-05T15:01:18.699Z [apify] WARN  SuperScraper returned status 500
+2026-02-05T15:01:18.700Z [apify] WARN  Attempt 1 failed, retrying...
+2026-02-05T15:02:14.995Z [apify] INFO    Found 25 new wines
+2026-02-05T15:02:15.301Z [apify] INFO    Found 14 new sub-regions
+2026-02-05T15:02:17.302Z [apify] INFO  Scraping region: Bugey Cerdon (depth: 2)
+2026-02-05T15:02:43.248Z [apify] INFO    Found 20 new wines
+2026-02-05T15:02:43.285Z [apify] INFO    Found 6 new sub-regions
+2026-02-05T15:02:45.286Z [apify] INFO  Scraping region: Pineau Des Charentes (depth: 3)
+2026-02-05T15:03:14.074Z [apify] INFO    Found 25 new wines
+2026-02-05T15:03:14.102Z [apify] INFO    Found 13 new sub-regions
+2026-02-05T15:03:16.103Z [apify] INFO  Scraping region: Cognac (depth: 3)
+2026-02-05T15:04:21.670Z [apify] INFO    Found 19 new wines
+2026-02-05T15:04:21.705Z [apify] INFO    Found 13 new sub-regions
+2026-02-05T15:04:23.707Z [apify] INFO  Scraping region: Esprit De Cognac (depth: 3)
+2026-02-05T15:05:41.775Z [apify] WARN  SuperScraper returned status 500
+2026-02-05T15:05:41.777Z [apify] WARN  Attempt 1 failed, retrying...
+2026-02-05T15:06:38.103Z [apify] INFO    Found 0 new wines
+2026-02-05T15:06:38.104Z [apify] INFO    Found 8 new sub-regions
+2026-02-05T15:06:40.106Z [apify] INFO  Scraping region: Cognac Petite Fine Champagne (depth: 3)
+2026-02-05T15:07:06.446Z [apify] INFO    Found 25 new wines
+2026-02-05T15:07:06.476Z [apify] INFO    Found 7 new sub-regions
+2026-02-05T15:07:08.477Z [apify] INFO  Scraping region: Cognac Petite Champagne (depth: 3)
+2026-02-05T15:07:41.061Z [apify] INFO    Found 24 new wines
+2026-02-05T15:07:41.096Z [apify] INFO    Found 6 new sub-regions
+2026-02-05T15:07:43.097Z [apify] INFO  Scraping region: Cognac Bois Ordinaires (depth: 3)
+2026-02-05T15:07:58.768Z [apify] INFO    Found 6 new wines
+2026-02-05T15:07:58.845Z [apify] INFO    Found 8 new sub-regions
+2026-02-05T15:08:00.846Z [apify] INFO  Scraping region: Cognac Borderies (depth: 3)
+2026-02-05T15:08:32.769Z [apify] INFO    Found 25 new wines
+2026-02-05T15:08:32.794Z [apify] INFO    Found 4 new sub-regions
+2026-02-05T15:08:34.795Z [apify] INFO  Scraping region: Cognac Fins Bois (depth: 3)
+2026-02-05T15:08:50.967Z [apify] INFO    Found 25 new wines
+2026-02-05T15:08:50.998Z [apify] INFO    Found 3 new sub-regions
+2026-02-05T15:08:52.999Z [apify] INFO  Scraping region: Cognac Grande Fine Champagne (depth: 3)
+2026-02-05T15:09:18.377Z [apify] INFO    Found 25 new wines
+2026-02-05T15:09:18.412Z [apify] INFO    Found 2 new sub-regions
+2026-02-05T15:09:20.414Z [apify] INFO  Scraping region: Cognac Grande Champagne (depth: 3)
+2026-02-05T15:09:45.355Z [apify] INFO    Found 20 new wines
+2026-02-05T15:09:45.381Z [apify] INFO    Found 1 new sub-regions
+2026-02-05T15:09:47.382Z [apify] INFO  Scraping region: Cognac Bons Bois (depth: 3)
+2026-02-05T15:10:04.105Z [apify] INFO    Found 20 new wines
+2026-02-05T15:10:04.153Z [apify] INFO    Found 0 new sub-regions
+2026-02-05T15:10:06.155Z [apify] INFO  Scraping region: Regnie (depth: 3)
+2026-02-05T15:10:17.045Z [apify] INFO    Found 25 new wines
+2026-02-05T15:10:17.068Z [apify] INFO    Found 11 new sub-regions
+2026-02-05T15:10:19.069Z [apify] INFO  Scraping region: Macon (depth: 3)
+2026-02-05T15:10:50.169Z [apify] INFO    Found 25 new wines
+2026-02-05T15:10:50.197Z [apify] INFO    Found 37 new sub-regions
+2026-02-05T15:10:52.199Z [apify] INFO  Scraping region: Chiroubles (depth: 3)
+2026-02-05T15:11:41.402Z [apify] INFO    Found 25 new wines
+2026-02-05T15:11:41.478Z [apify] INFO    Found 10 new sub-regions
+2026-02-05T15:11:43.479Z [apify] INFO  Scraping region: Moulin-A-Vent (depth: 3)
+2026-02-05T15:12:20.347Z [apify] INFO    Found 25 new wines
+2026-02-05T15:12:20.377Z [apify] INFO    Found 9 new sub-regions
+2026-02-05T15:12:22.378Z [apify] INFO  Scraping region: Cote De Brouilly (depth: 3)
+2026-02-05T15:12:56.972Z [apify] INFO    Found 25 new wines
+2026-02-05T15:12:57.001Z [apify] INFO    Found 8 new sub-regions
+2026-02-05T15:12:59.003Z [apify] INFO  Scraping region: Chenas (depth: 3)
+2026-02-05T15:13:21.146Z [apify] INFO    Found 25 new wines
+2026-02-05T15:13:21.178Z [apify] INFO    Found 8 new sub-regions
+2026-02-05T15:13:23.180Z [apify] INFO  Scraping region: Julienas (depth: 3)
+2026-02-05T15:13:46.654Z [apify] INFO    Found 25 new wines
+2026-02-05T15:13:46.724Z [apify] INFO    Found 7 new sub-regions
+2026-02-05T15:13:48.725Z [apify] INFO  Scraping region: Beaujolais Villages (depth: 3)
+2026-02-05T15:14:18.050Z [apify] INFO    Found 25 new wines
+2026-02-05T15:14:18.116Z [apify] INFO    Found 8 new sub-regions
+2026-02-05T15:14:20.118Z [apify] INFO  Scraping region: Morgon (depth: 3)
+2026-02-05T15:14:42.839Z [apify] INFO    Found 25 new wines
+2026-02-05T15:14:42.868Z [apify] INFO    Found 4 new sub-regions
+2026-02-05T15:14:44.869Z [apify] INFO  Scraping region: Saint-Amour (depth: 3)
+2026-02-05T15:15:18.388Z [apify] INFO    Found 25 new wines
+2026-02-05T15:15:18.418Z [apify] INFO    Found 5 new sub-regions
+2026-02-05T15:15:20.420Z [apify] INFO  Scraping region: Brouilly (depth: 3)
+2026-02-05T15:15:42.001Z [apify] INFO    Found 25 new wines
+2026-02-05T15:15:42.022Z [apify] INFO    Found 2 new sub-regions
+2026-02-05T15:15:44.023Z [apify] INFO  Scraping region: Fleurie (depth: 3)
+2026-02-05T15:16:11.904Z [apify] INFO    Found 25 new wines
+2026-02-05T15:16:11.939Z [apify] INFO    Found 1 new sub-regions
+2026-02-05T15:16:13.940Z [apify] INFO  Scraping region: Beaujolais Blanc (depth: 3)
+2026-02-05T15:16:36.770Z [apify] INFO    Found 25 new wines
+2026-02-05T15:16:36.871Z [apify] INFO    Found 4 new sub-regions
+2026-02-05T15:16:38.872Z [apify] INFO  Scraping region: Ventoux (depth: 3)
+2026-02-05T15:16:54.840Z [apify] INFO    Found 25 new wines
+2026-02-05T15:16:54.866Z [apify] INFO    Found 32 new sub-regions
+2026-02-05T15:16:56.868Z [apify] INFO  Scraping region: Roussette Du Bugey (depth: 3)
+2026-02-05T15:17:34.953Z [apify] INFO    Found 7 new wines
+2026-02-05T15:17:35.001Z [apify] INFO    Found 4 new sub-regions
+2026-02-05T15:17:37.002Z [apify] INFO  Scraping region: Bugey Manicle (depth: 3)
+2026-02-05T15:17:59.645Z [apify] INFO    Found 8 new wines
+2026-02-05T15:17:59.743Z [apify] INFO    Found 2 new sub-regions
+2026-02-05T15:18:01.744Z [apify] INFO  Scraping region: Clairette De Die Tradition (depth: 3)
+2026-02-05T15:18:29.378Z [apify] INFO    Found 23 new wines
+2026-02-05T15:18:29.407Z [apify] INFO    Found 2 new sub-regions
+2026-02-05T15:18:31.408Z [apify] INFO  Scraping region: Bugey (depth: 3)
+2026-02-05T15:19:40.097Z [apify] INFO    Found 7 new wines
+2026-02-05T15:19:40.121Z [apify] INFO    Found 2 new sub-regions
+2026-02-05T15:19:42.123Z [apify] INFO  Scraping region: Blanquette De Limoux Methode Ancestrale (depth: 3)
+2026-02-05T15:19:52.835Z [apify] INFO    Found 9 new wines
+2026-02-05T15:19:52.857Z [apify] INFO    Found 4 new sub-regions
+2026-02-05T15:19:54.859Z [apify] INFO  Scraping region: Bugey Montagnieu (depth: 3)
+2026-02-05T15:20:27.063Z [apify] INFO    Found 5 new wines
+2026-02-05T15:20:27.088Z [apify] INFO    Found 1 new sub-regions
+2026-02-05T15:20:29.089Z [apify] INFO  Scraping region: Floc De Gascogne (depth: 4)
+2026-02-05T15:21:02.705Z [apify] INFO    Found 25 new wines
+2026-02-05T15:21:02.767Z [apify] INFO    Found 5 new sub-regions
+2026-02-05T15:21:04.768Z [apify] INFO  Scraping region: Macvin Du Jura (depth: 4)
+2026-02-05T15:21:21.482Z [apify] INFO    Found 25 new wines
+2026-02-05T15:21:21.512Z [apify] INFO    Found 7 new sub-regions
+2026-02-05T15:21:23.513Z [apify] INFO  Scraping region: Armagnac (depth: 4)
+2026-02-05T15:21:57.475Z [apify] INFO    Found 25 new wines
+2026-02-05T15:21:57.507Z [apify] INFO    Found 7 new sub-regions
+2026-02-05T15:21:59.509Z [apify] INFO  Scraping region: Burgundy (depth: 4)
+2026-02-05T15:22:30.105Z [apify] INFO    Found 25 new wines
+2026-02-05T15:22:30.165Z [apify] INFO    Found 78 new sub-regions
+2026-02-05T15:22:32.166Z [apify] INFO  Scraping region: Vin De France - Vin De Table (depth: 4)
+2026-02-05T15:23:33.164Z [apify] INFO    Found 27 new wines
+2026-02-05T15:23:33.239Z [apify] INFO    Found 10 new sub-regions
+2026-02-05T15:23:35.241Z [apify] INFO  Scraping region: Igp Charentais (depth: 4)
+2026-02-05T15:23:50.502Z [apify] INFO    Found 25 new wines
+2026-02-05T15:23:50.523Z [apify] INFO    Found 72 new sub-regions
+2026-02-05T15:23:52.525Z [apify] INFO  Scraping region: Medoc (depth: 4)
+2026-02-05T15:24:23.783Z [apify] INFO    Found 25 new wines
+2026-02-05T15:24:23.818Z [apify] INFO    Found 9 new sub-regions
+2026-02-05T15:24:25.820Z [apify] INFO  Scraping region: Bergerac (depth: 4)
+2026-02-05T15:24:48.246Z [apify] INFO    Found 25 new wines
+2026-02-05T15:24:48.272Z [apify] INFO    Found 11 new sub-regions
+2026-02-05T15:24:50.273Z [apify] INFO  Scraping region: Fiefs Vendeens (depth: 4)
+2026-02-05T15:25:08.836Z [apify] INFO    Found 25 new wines
+2026-02-05T15:25:08.858Z [apify] INFO    Found 3 new sub-regions
+2026-02-05T15:25:10.859Z [apify] INFO  Scraping region: Burgundy %5Bbourgogne%5D (depth: 4)
+2026-02-05T15:26:01.451Z [apify] INFO    Found 0 new wines
+2026-02-05T15:26:01.452Z [apify] INFO    Found 107 new sub-regions
+2026-02-05T15:26:03.453Z [apify] INFO  Scraping region: Bourgogne Passe-Tout-Grains (depth: 4)
+2026-02-05T15:26:35.148Z [apify] INFO    Found 25 new wines
+2026-02-05T15:26:35.190Z [apify] INFO    Found 23 new sub-regions
+2026-02-05T15:26:37.192Z [apify] INFO  Scraping region: Macon Chaintre (depth: 4)
+2026-02-05T15:26:47.976Z [apify] INFO    Found 14 new wines
+2026-02-05T15:26:48.021Z [apify] INFO    Found 31 new sub-regions
+2026-02-05T15:26:50.023Z [apify] INFO  Scraping region: Macon Bray (depth: 4)
+2026-02-05T15:28:50.352Z [apify] WARN  SuperScraper returned status 500
+2026-02-05T15:28:50.353Z [apify] WARN  Attempt 1 failed, retrying...
+2026-02-05T15:29:30.946Z [apify] INFO    Found 10 new wines
+2026-02-05T15:29:31.078Z [apify] INFO    Found 26 new sub-regions
+2026-02-05T15:29:33.060Z [apify] INFO  Scraping region: Macon Montbellet (depth: 4)
+2026-02-05T15:30:21.458Z [apify] INFO    Found 2 new wines
+2026-02-05T15:30:21.490Z [apify] INFO    Found 25 new sub-regions
+2026-02-05T15:30:23.492Z [apify] INFO  Scraping region: Macon Pierreclos (depth: 4)
+2026-02-05T15:30:42.280Z [apify] INFO    Found 19 new wines
+2026-02-05T15:30:42.317Z [apify] INFO    Found 24 new sub-regions
+2026-02-05T15:30:44.320Z [apify] INFO  Scraping region: Macon Davaye (depth: 4)
+2026-02-05T15:31:11.388Z [apify] INFO    Found 8 new wines
+2026-02-05T15:31:11.420Z [apify] INFO    Found 24 new sub-regions
+2026-02-05T15:31:13.421Z [apify] INFO  Scraping region: Macon Mancey (depth: 4)
+2026-02-05T15:32:22.139Z [apify] INFO    Found 8 new wines
+2026-02-05T15:32:22.160Z [apify] INFO    Found 23 new sub-regions
+2026-02-05T15:32:24.162Z [apify] INFO  Scraping region: Macon Burgy (depth: 4)
+2026-02-05T15:33:16.696Z [apify] INFO    Found 6 new wines
+2026-02-05T15:33:16.729Z [apify] INFO    Found 22 new sub-regions
+2026-02-05T15:33:18.730Z [apify] INFO  Scraping region: Macon Bussieres (depth: 4)
+2026-02-05T15:35:20.914Z [apify] WARN  SuperScraper returned status 500
+2026-02-05T15:35:20.915Z [apify] WARN  Attempt 1 failed, retrying...
+2026-02-05T15:36:03.372Z [apify] INFO    Found 15 new wines
+2026-02-05T15:36:03.405Z [apify] INFO    Found 20 new sub-regions
+2026-02-05T15:36:05.405Z [apify] INFO  Scraping region: Macon Vinzelles (depth: 4)
+2026-02-05T15:36:43.091Z [apify] INFO    Found 8 new wines
+2026-02-05T15:36:43.115Z [apify] INFO    Found 20 new sub-regions
+2026-02-05T15:36:45.116Z [apify] INFO  Scraping region: Macon Ige (depth: 4)
+2026-02-05T15:37:08.545Z [apify] INFO    Found 16 new wines
+2026-02-05T15:37:08.593Z [apify] INFO    Found 19 new sub-regions
+2026-02-05T15:37:10.594Z [apify] INFO  Scraping region: Coteaux Bourguignons (depth: 4)
+2026-02-05T15:37:40.533Z [apify] INFO    Found 25 new wines
+2026-02-05T15:37:40.562Z [apify] INFO    Found 23 new sub-regions
+2026-02-05T15:37:42.563Z [apify] INFO  Scraping region: Pouilly-Fuisse (depth: 4)
+2026-02-05T15:38:06.450Z [apify] INFO    Found 25 new wines
+2026-02-05T15:38:06.477Z [apify] INFO    Found 5 new sub-regions
+2026-02-05T15:38:08.478Z [apify] INFO  Scraping region: Macon Prisse (depth: 4)
+2026-02-05T15:38:24.063Z [apify] INFO    Found 9 new wines
+2026-02-05T15:38:24.111Z [apify] INFO    Found 18 new sub-regions
+2026-02-05T15:38:26.099Z [apify] INFO  Scraping region: Macon Cruzille (depth: 4)
+2026-02-05T15:39:23.205Z [apify] INFO    Found 24 new wines
+2026-02-05T15:39:23.229Z [apify] INFO    Found 17 new sub-regions
+2026-02-05T15:39:25.231Z [apify] INFO  Scraping region: Macon Peronne (depth: 4)
+2026-02-05T15:39:49.676Z [apify] INFO    Found 24 new wines
+2026-02-05T15:39:49.731Z [apify] INFO    Found 16 new sub-regions
+2026-02-05T15:39:51.733Z [apify] INFO  Scraping region: Macon Saint-Gengoux (depth: 4)
+2026-02-05T15:40:47.660Z [apify] INFO    Found 0 new wines
+2026-02-05T15:40:47.661Z [apify] INFO    Found 14 new sub-regions
+2026-02-05T15:40:49.662Z [apify] INFO  Scraping region: Macon Loche (depth: 4)
+2026-02-05T15:42:52.842Z [apify] WARN  SuperScraper returned status 500
+2026-02-05T15:42:52.843Z [apify] WARN  Attempt 1 failed, retrying...
+2026-02-05T15:43:34.165Z [apify] INFO    Found 10 new wines
+2026-02-05T15:43:34.240Z [apify] INFO    Found 15 new sub-regions
+2026-02-05T15:43:36.241Z [apify] INFO  Scraping region: Macon Serrieres (depth: 4)
+2026-02-05T15:44:19.790Z [apify] INFO    Found 5 new wines
+2026-02-05T15:44:19.810Z [apify] INFO    Found 12 new sub-regions
+2026-02-05T15:44:21.812Z [apify] INFO  Scraping region: Macon Aze (depth: 4)
+2026-02-05T15:44:50.550Z [apify] INFO    Found 12 new wines
+2026-02-05T15:44:50.580Z [apify] INFO    Found 11 new sub-regions
+2026-02-05T15:44:52.581Z [apify] INFO  Scraping region: Macon Solutre-Pouilly (depth: 4)
+2026-02-05T15:45:17.135Z [apify] INFO    Found 24 new wines
+2026-02-05T15:45:17.155Z [apify] INFO    Found 12 new sub-regions
+2026-02-05T15:45:19.156Z [apify] INFO  Scraping region: Cremant De Bourgogne (depth: 4)
+2026-02-05T15:47:23.663Z [apify] WARN  SuperScraper returned status 500
+2026-02-05T15:47:23.664Z [apify] WARN  Attempt 1 failed, retrying...
+2026-02-05T15:47:59.139Z [apify] INFO    Found 25 new wines
+2026-02-05T15:47:59.167Z [apify] INFO    Found 22 new sub-regions
+2026-02-05T15:48:01.170Z [apify] INFO  Scraping region: Macon Verze (depth: 4)
+2026-02-05T15:48:19.368Z [apify] INFO    Found 19 new wines
+2026-02-05T15:48:19.475Z [apify] INFO    Found 9 new sub-regions
+2026-02-05T15:48:21.477Z [apify] INFO  Scraping region: Bourgogne (depth: 4)
+2026-02-05T15:48:42.041Z [apify] INFO    Found 24 new wines
+2026-02-05T15:48:42.146Z [apify] INFO    Found 28 new sub-regions
+2026-02-05T15:48:44.147Z [apify] INFO  Scraping region: Macon Lugny (depth: 4)
+2026-02-05T15:49:05.845Z [apify] INFO    Found 23 new wines
+2026-02-05T15:49:05.876Z [apify] INFO    Found 9 new sub-regions
+2026-02-05T15:49:07.877Z [apify] INFO  Scraping region: Macon Chardonnay (depth: 4)
+2026-02-05T15:49:07.921Z ACTOR: The Actor run has reached the timeout of 3600 seconds, aborting it. You can increase the timeout in Input > Run options.
