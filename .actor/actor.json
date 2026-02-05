@@ -1,0 +1,61 @@
+{
+    "actorSpecification": 1,
+    "name": "wine-searcher-scraper",
+    "title": "Wine-Searcher Region Scraper",
+    "description": "Scrapes wine data from Wine-Searcher regions including all sub-regions. Extracts Product, Grape, Popularity, Critics' Score, and Avg. Price.",
+    "version": "0.1",
+    "buildTag": "latest",
+    "meta": {
+        "templateId": "python-start"
+    },
+    "input": "./input_schema.json",
+    "dockerfile": "./Dockerfile",
+    "storages": {
+        "dataset": {
+            "actorSpecification": 1,
+            "title": "Wine Data",
+            "views": {
+                "wines": {
+                    "title": "Wines",
+                    "transformation": {
+                        "fields": [
+                            "product_name",
+                            "product_url",
+                            "grape",
+                            "popularity",
+                            "critics_score",
+                            "avg_price",
+                            "region",
+                            "source_url"
+                        ]
+                    },
+                    "display": {
+                        "component": "table",
+                        "properties": {
+                            "product_name": {
+                                "label": "Product",
+                                "format": "text"
+                            },
+                            "grape": {
+                                "label": "Grape",
+                                "format": "text"
+                            },
+                            "popularity": {
+                                "label": "Popularity",
+                                "format": "text"
+                            },
+                            "critics_score": {
+                                "label": "Critics Score",
+                                "format": "text"
+                            },
+                            "avg_price": {
+                                "label": "Avg. Price",
+                                "format": "text"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,56 @@
+{
+    "title": "Wine-Searcher Region Scraper Input",
+    "description": "Configure the scraper to extract wine data from a specific region or country on Wine-Searcher.",
+    "type": "object",
+    "schemaVersion": 1,
+    "properties": {
+        "startUrl": {
+            "title": "Start Region URL",
+            "type": "string",
+            "description": "The Wine-Searcher region URL to start scraping from. Example: https://www.wine-searcher.com/regions-italy or https://www.wine-searcher.com/regions-burgundy",
+            "editor": "textfield",
+            "prefill": "https://www.wine-searcher.com/regions-burgundy",
+            "pattern": "^https://www\\.wine-searcher\\.com/regions-[a-zA-Z0-9%+\\-]+"
+        },
+        "scrapeSubRegions": {
+            "title": "Scrape Sub-Regions",
+            "type": "boolean",
+            "description": "If enabled, the scraper will recursively scrape all sub-regions of the selected region.",
+            "default": true
+        },
+        "maxDepth": {
+            "title": "Maximum Depth",
+            "type": "integer",
+            "description": "Maximum depth for sub-region crawling. 0 = only the start region, 1 = start region + direct sub-regions, etc.",
+            "default": 10,
+            "minimum": 0,
+            "maximum": 20
+        },
+        "maxPagesPerRegion": {
+            "title": "Max Pages per Region",
+            "type": "integer",
+            "description": "Maximum number of pagination pages to scrape per region. Each page contains ~25 wines.",
+            "default": 20,
+            "minimum": 1,
+            "maximum": 50
+        },
+        "tabFilter": {
+            "title": "Wine Sorting Tab",
+            "type": "string",
+            "description": "Which wine list to scrape from each region.",
+            "editor": "select",
+            "default": "mostpopular",
+            "enum": ["mostpopular", "best", "bestvalue", "mostexpensive", "cheapest"],
+            "enumTitles": ["Most Popular", "Best Rated", "Best Value", "Most Expensive", "Cheapest"]
+        },
+        "requestTimeout": {
+            "title": "Request Timeout (seconds)",
+            "type": "integer",
+            "description": "Timeout for each HTTP request in seconds.",
+            "default": 60,
+            "minimum": 10,
+            "maximum": 300
+        }
+    },
+    "required": ["startUrl"]
+}
