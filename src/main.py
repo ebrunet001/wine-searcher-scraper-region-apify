@@ -108,12 +108,12 @@ class WineSearcherScraper:
                     grape = grape_link.get_text(strip=True)
                     grape_url = urljoin(self.BASE_URL, grape_link.get('href', ''))
 
-                # Extract popularity
+                # Extract popularity (handle numbers with commas like "51,040th")
                 popularity = ""
-                pop_match = re.search(r'(\d+)(?:st|nd|rd|th)\s+in\s+popularity', parent_text, re.IGNORECASE)
+                pop_match = re.search(r'([\d,]+)(?:st|nd|rd|th)\s+in\s+popularity', parent_text, re.IGNORECASE)
                 if pop_match:
                     rank = pop_match.group(1)
-                    rank_int = int(rank)
+                    rank_int = int(rank.replace(',', ''))
                     suffix = 'th'
                     if rank_int % 100 not in [11, 12, 13]:
                         if rank_int % 10 == 1:
