@@ -1,13 +1,15 @@
 {
     "actorSpecification": 1,
-    "name": "wine-searcher-scraper",
-    "title": "Wine-Searcher Region Scraper",
+    "name": "wine-searcher-scraper-region---search-rank-rating-avg-price",
+    "title": "Wine Searcher Scraper Region - Search Rank + Rating + Avg Price",
     "description": "Scrapes wine data from Wine-Searcher regions including all sub-regions. Extracts Product, Grape, Popularity, Critics' Score, and Avg. Price.",
     "version": "0.1",
     "buildTag": "latest",
     "meta": {
         "templateId": "python-start"
     },
+    "apifyStoreUrl": "https://apify.com/scrapmania/wine-searcher-scraper-region---search-rank-rating-avg-price",
+    "apifyConsoleUrl": "https://console.apify.com/actors/cLCvbvUnes441I1SY",
     "input": "./input_schema.json",
     "dockerfile": "./Dockerfile",
     "storages": {

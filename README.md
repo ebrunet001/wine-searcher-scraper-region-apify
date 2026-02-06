@@ -1,6 +1,13 @@
-# Wine-Searcher Region Scraper
+# Wine Searcher Scraper Region - Search Rank + Rating + Avg Price
+
+[![Apify Actor](https://img.shields.io/badge/Apify-Actor-blue)](https://apify.com/scrapmania/wine-searcher-scraper-region---search-rank-rating-avg-price)
 
 Scrape wine data from [Wine-Searcher](https://www.wine-searcher.com) region pages. This Actor extracts detailed wine information including product names, grape varieties, popularity rankings, critics' scores, and average prices.
+
+## Apify Store
+
+- **Actor URL**: https://apify.com/scrapmania/wine-searcher-scraper-region---search-rank-rating-avg-price
+- **Console URL**: https://console.apify.com/actors/cLCvbvUnes441I1SY
 
 ## Features
 
