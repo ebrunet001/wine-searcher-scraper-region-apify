@@ -22,3 +22,6 @@ Thumbs.db
 # Logs (but keep logs/ directory)
 *.log
 !logs/*.log
+
+# Output data
+Data extraites/
