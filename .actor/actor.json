@@ -1,5 +1,6 @@
 {
     "actorSpecification": 1,
+    "id": "cLCvbvUnes441I1SY",
     "name": "wine-searcher-scraper-region---search-rank-rating-avg-price",
     "title": "Wine Searcher Scraper - Region Rankings, Ratings & Prices",
     "description": "Scrape wine data from Wine-Searcher region pages. Extract product names, grape varieties, popularity rankings, critics scores, and average prices. Supports recursive sub-region crawling with configurable depth and pagination.",
@@ -14,7 +15,7 @@
         "languages": ["EN"]
     },
     "seoTitle": "Wine Searcher Scraper | Region Rankings, Ratings & Prices",
-    "seoDescription": "Scrape Wine-Searcher regions: wine rankings, critics scores, prices, grape varieties. Recursive sub-region crawling. Export JSON, CSV or Excel.",
+    "seoDescription": "Scrape Wine-Searcher region pages: wine rankings, critics scores, prices, grape varieties. Recursive sub-region crawling. Export JSON, CSV or Excel.",
     "input": "./input_schema.json",
     "output": "./output_schema.json",
     "dockerfile": "./Dockerfile",
