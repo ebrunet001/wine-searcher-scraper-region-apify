@@ -1,7 +1,7 @@
 {
     "actorOutputSchemaVersion": 1,
-    "title": "Wine Searcher Region Scraper Output",
-    "description": "Output from the Wine Searcher Region Scraper Actor",
+    "title": "Wine Searcher Region Rankings & Prices - SuperScraper Output",
+    "description": "Output from the Wine Searcher Region Rankings & Prices - SuperScraper Actor",
     "type": "object",
     "properties": {
         "runUrl": {

@@ -1,5 +1,5 @@
 {
-    "title": "Wine-Searcher Region Scraper Input",
+    "title": "Wine Searcher Region Rankings & Prices - SuperScraper Input",
     "description": "Configure the scraper to extract wine data from Wine-Searcher region pages. Set a starting region, choose sorting, and control sub-region depth.",
     "type": "object",
     "schemaVersion": 1,

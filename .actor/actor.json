@@ -14,8 +14,8 @@
         "categories": ["ECOMMERCE"],
         "languages": ["EN"]
     },
-    "seoTitle": "Wine Searcher Scraper | Region Rankings, Ratings & Prices",
-    "seoDescription": "Scrape Wine-Searcher region pages: wine rankings, critics scores, prices, grape varieties. Recursive sub-region crawling. Export JSON, CSV or Excel.",
+    "seoTitle": "Wine Searcher SuperScraper | Region Rankings & Prices",
+    "seoDescription": "Scrape Wine-Searcher region pages via SuperScraper: wine rankings, critics scores, prices, grape varieties. Recursive sub-region crawling. Export JSON/CSV.",
     "input": "./input_schema.json",
     "output": "./output_schema.json",
     "dockerfile": "./Dockerfile",
