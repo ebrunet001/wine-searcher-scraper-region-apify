@@ -117,14 +117,16 @@ Follow these steps to extract wine data from any Wine-Searcher region:
 
 The Actor uses pay-per-result pricing at **$0.005 per wine** extracted, plus standard Apify platform costs for compute time.
 
-| Scenario | Wines | Estimated cost |
-|----------|-------|---------------|
-| Single region, 1 page | ~25 | ~$0.15 |
-| Single region, all pages | ~500 | ~$2.50 |
-| Country with sub-regions (depth 2) | ~2,000 | ~$10 |
-| Large country, full depth | ~10,000+ | ~$50+ |
+> **Important:** This Actor relies on [Apify SuperScraper](https://apify.com/apify/super-scraper) for JavaScript rendering and anti-bot bypass. SuperScraper is billed separately by Apify on each page fetch. **The cost shown in the Actor's Information tab does not include SuperScraper fees.** The total cost per run is the sum of this Actor's pay-per-result fee + compute time + SuperScraper usage.
 
-The scraper uses [Apify SuperScraper](https://apify.com/apify/super-scraper) for JavaScript rendering and anti-bot bypass, which provides reliable access to Wine-Searcher pages. Compute costs depend on the number of pages fetched and processing time.
+| Scenario | Wines | Actor PPE cost | SuperScraper cost (approx.) | Total (approx.) |
+|----------|-------|---------------|----------------------------|----------------|
+| Single region, 1 page | ~25 | ~$0.13 | ~$0.05 | ~$0.18 |
+| Single region, all pages | ~500 | ~$2.50 | ~$1.00 | ~$3.50 |
+| Country with sub-regions (depth 2) | ~2,000 | ~$10 | ~$4.00 | ~$14 |
+| Large country, full depth | ~10,000+ | ~$50+ | ~$20+ | ~$70+ |
+
+Looking for a lower-cost alternative? Check out [Wine Searcher Region Rankings & Prices](https://apify.com/scrapmania/wine-searcher-region-rankings-prices), which uses built-in browser automation instead of SuperScraper — significantly reducing per-run costs.
 
 ## Region URL examples
 
